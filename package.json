@@ -1,0 +1,20 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "language": "ES6",
+  "scripts": {
+    "dev": "nodemon src/index.js --watch ./src"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1122.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "node-fetch": "^3.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
